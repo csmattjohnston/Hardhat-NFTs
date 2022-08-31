@@ -25,18 +25,21 @@ module.exports = {
             chainId: 31337,
             // gasPrice: 130000000000,
             blockConfirmations: 1,
+            allowUnlimitedContractSize: true,
         },
         rinkeby: {
             url: RINKEBY_RPC_URL,
             accounts: [PRIVATE_KEY],
             chainId: 4,
             blockConfirmations: 1,
+            allowUnlimitedContractSize: true,
         },
         goerli: {
             url: GOERLI_RPC_URL,
             accounts: [GOERLI_PRIVATE_KEY],
             chainId: 5,
             blockConfirmations: 1,
+            allowUnlimitedContractSize: true,
         },
     },
     solidity: {
